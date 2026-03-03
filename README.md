@@ -21,13 +21,6 @@ The Semantic Filter: The Engine (get_input_file) does not count rows. It operate
 The Biological Constant: The system expects human error. If a user inputs january_data instead of january_data.csv, the command prompt silently appends the extension and routes the path to the correct /Data_Input directory.
 
 3. Pipeline Topography
-
-(Note: GitHub natively renders this diagram)
-
-graph TD
-    %% Theme
-    classDef default fill:#000,stroke:#00ff41,stroke-width:2px,color:#00ff41;
-    classDef error fill:#330000,stroke:#ff0000,stroke-width:2px,color:#ff0000;
     
     A([User CLI Input]) --> B{Smart Router}
     B -->|Appends .csv & Locates| C(The Airlock: validate_local_file)
