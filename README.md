@@ -22,6 +22,11 @@ The Biological Constant: The system expects human error. If a user inputs januar
 
 3. Pipeline Topography
     
+graph TD
+    %% Theme
+    classDef default fill:#000,stroke:#00ff41,stroke-width:2px,color:#00ff41;
+    classDef error fill:#330000,stroke:#ff0000,stroke-width:2px,color:#ff0000;
+    
     A([User CLI Input]) --> B{Smart Router}
     B -->|Appends .csv & Locates| C(The Airlock: validate_local_file)
     
