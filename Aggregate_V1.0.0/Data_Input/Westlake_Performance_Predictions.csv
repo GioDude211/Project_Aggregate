@@ -1,0 +1,6 @@
+Scenario,Monthly Revenue,Total Expenses*,Net Profit
+Floor,"$6,600","$9,171","-$2,571"
+Static Average,"$10,925","$10,577",$348
+Target (65%),"$13,052","$11,268","$1,784"
+Full Capacity (Pre-Hike),"$21,850","$14,127","$7,723"
+Ceiling (Prediction),"$38,500","$19,539","$18,962"
