@@ -1,7 +1,5 @@
 SONDERBYTE: Aggregate ⬛🟩
 
-"We don't build scripts to read files. We build logic gates to filter mud."
-
 1. The Operational Context
 
 The modern Small-to-Medium Business (SMB) ecosystem is plagued by the SaaS Archipelago—a fragmented landscape where critical financial data is locked inside vendor platforms (like QuickBooks Online). When users export this data, vendors provide heavily formatted, human-readable CSVs filled with metadata, blank columns, and timestamps. We refer to this as "The Mud."
